@@ -118,7 +118,7 @@ Below are screenshots showcasing the features and UI of the project:
 ![Treatment Plan](./src/Screenshots/Treatment%20plan.png)
 
 ### 7. User Profile
-![User Profile](./src/Screenshots/userprofile.png.png)
+![User Profile](./src/Screenshots/userprofile.png)
 
 ### 8. To-Do List
 ![To-Do List](./src/Screenshots/YourTodoList.png)
