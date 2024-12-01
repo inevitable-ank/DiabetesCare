@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { usePrivy } from "@privy-io/react-auth";
 import { useStateContext } from "../context"; // Adjust the import path
-
+import { FiMenu, FiSearch } from "react-icons/fi";
 import CustomButton from "./CustomButton";
 // import { menu, search } from "../assets";
 import { navlinks } from "../constants";
@@ -98,11 +98,12 @@ const Navbar = () => {
       className="flex w-full bg-transparent font-epilogue text-[14px] font-normal text-white outline-none placeholder:text-[#000000]"
     />
     <div className="flex h-full w-[72px] cursor-pointer items-center justify-center rounded-[20px] bg-[#969ee7]">
-      <img
+      {/* <img
         // src={search}
         alt="search"
         className="h-[15px] w-[15px] object-contain"
-      />
+      /> */}
+      <FiSearch size={15} className="text-white" />
     </div>
   </div>
 </div>
@@ -122,10 +123,15 @@ const Navbar = () => {
         <div className="flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-[10px] bg-[#646467]">
           <IconHeartHandshake size={40} color="#1dc071" className="p-2" />
         </div>
-        <img
+        {/* <img
           // src={menu}
           alt="menu"
           className="h-[34px] w-[34px] cursor-pointer object-contain"
+          onClick={() => setToggleDrawer((prev) => !prev)}
+        /> */}
+        <FiMenu
+          size={34}
+          className="cursor-pointer text-white"
           onClick={() => setToggleDrawer((prev) => !prev)}
         />
         <div
