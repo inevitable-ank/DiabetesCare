@@ -1,5 +1,32 @@
 # React.js Full-Stack Development Guide
 
+## 🌐 Website Overview  
+
+This project includes a dedicated **website** to provide personalized and AI-powered solutions for diabetes management. The website is designed to assist patients and caregivers with tailored health plans, medical insights, and efficient management tools.
+
+### 🌟 Key Features of the Website  
+- **Personalized Health Plans**:  
+  Using advanced AI (Gemini AI), the website analyzes patient data and medical records to recommend customized health and treatment plans tailored to individual needs.  
+
+- **Blood Sugar Monitoring Insights**:  
+  Track and analyze trends in blood sugar levels to help patients make informed decisions about their health.  
+
+- **Medication and Diet Recommendations**:  
+  Automated suggestions for medications, dietary plans, and exercise routines to help manage diabetes effectively.  
+
+- **Schedule and Task Management**:  
+  A user-friendly **Kanban board** helps patients track appointments, medication schedules, and health-related tasks.  
+
+- **Secure User Accounts**:  
+  Integrated with **Privy Authentication** to ensure user privacy and data security.  
+
+- **Responsive and Modern Design**:  
+  Built with **Tailwind CSS**, ensuring accessibility across all devices, including desktops, tablets, and smartphones.  
+
+- **Community Support**:  
+  Provides resources, articles, and community forums to support diabetes patients and their caregivers.
+
+---
 ## 🚀 Introduction  
 This guide provides an in-depth overview of building full-stack applications with **React.js**, showcasing fundamental principles and best practices. Explore the seamless integration of **AI**, **TypeScript**, modern **state management**, and responsive design while deploying scalable projects.
 
