@@ -4,7 +4,7 @@ import { usePrivy } from "@privy-io/react-auth";
 import { useStateContext } from "../context"; // Adjust the import path
 
 import CustomButton from "./CustomButton";
-import { menu, search } from "../assets";
+// import { menu, search } from "../assets";
 import { navlinks } from "../constants";
 import { IconHeartHandshake } from "@tabler/icons-react";
 
@@ -99,7 +99,7 @@ const Navbar = () => {
     />
     <div className="flex h-full w-[72px] cursor-pointer items-center justify-center rounded-[20px] bg-[#969ee7]">
       <img
-        src={search}
+        // src={search}
         alt="search"
         className="h-[15px] w-[15px] object-contain"
       />
@@ -123,7 +123,7 @@ const Navbar = () => {
           <IconHeartHandshake size={40} color="#1dc071" className="p-2" />
         </div>
         <img
-          src={menu}
+          // src={menu}
           alt="menu"
           className="h-[34px] w-[34px] cursor-pointer object-contain"
           onClick={() => setToggleDrawer((prev) => !prev)}
@@ -147,7 +147,7 @@ const Navbar = () => {
                 }}
               >
                 <img
-                  src={link.imgUrl}
+                  // src={link.imgUrl}
                   alt={link.name}
                   className={`h-[24px] w-[24px] object-contain ${
                     isActive === link.name ? "grayscale-0" : "grayscale"
